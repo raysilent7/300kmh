@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: info
+
+server:
+  port: 8098
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/desafio-icarros
+      readPreference: 'secondaryPreferred'
+      writeConcern: 'W1'
